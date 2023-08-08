@@ -12,8 +12,8 @@
 
 .header__links-list {
     display: flex;
-    gap: 33px;  
-    list-style-type: circle;  
+    gap: 33px;
+    list-style-type: circle;
 }
 
 .header__link,
@@ -40,7 +40,7 @@
     max-width: 240px;
     font-style: normal;
     line-height: 135%;
-    justify-self: right; 
+    justify-self: right;
 }
 
 .cover {
@@ -50,7 +50,7 @@
     background-size: cover;
     position: relative;
     z-index: -2;
-    color: #fff;  
+    color: #fff;
 }
 
 .overlay {
@@ -60,7 +60,7 @@
     z-index: -1;
     inset: 0;
     background-color: #000;
-    opacity: 0.6000000238418579; 
+    opacity: 0.6000000238418579;
 }
 
 .cover__title {
@@ -70,13 +70,13 @@
     letter-spacing: 60px;
     text-transform: uppercase;
     padding: 165px 20px 135px 50px;
-    z-index: 0;  
+    z-index: 0;
 }
 
 .aligned__text {
     display: block;
-    letter-spacing: 30px;  
-    line-height: 115%; 
+    letter-spacing: 30px;
+    line-height: 115%;
     padding-right: 50px;
 }
 
@@ -84,13 +84,13 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    line-height: 100%;   
+    line-height: 100%;
 }
 
 .aligned__text_right {
     text-align: right;
-    line-height: 100%; 
-    padding-right: 0px;     
+    line-height: 100%;
+    padding-right: 0px;
 }
 
 .letter__spacing {
@@ -114,7 +114,7 @@
 
 .cover__description-text {
     word-spacing: 18px;
-    text-align: center;   
+    text-align: center;
 }
 
 .bet__button {
@@ -130,7 +130,7 @@
     background-color: transparent;
     padding: 12px 32px;
     color: #FFF;
-    border: 1px solid #FFF;  
+    border: 1px solid #FFF;
 }
 
 .lots {
@@ -179,7 +179,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: -2; 
+    z-index: -2;
 }
 
 .card__title {
@@ -190,7 +190,7 @@
     z-index: 0;
 }
 
-.card__text{
+.card__text {
     z-index: 0;
 }
 
@@ -227,7 +227,7 @@
     grid-template-rows: 1fr 1fr;
     column-gap: 25px;
 }
-.container { 
+.container {
     width: 240px;
     height: 240px;
     border-radius:50%;
@@ -274,7 +274,7 @@
 .footer__menu-list {
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;  
+    font-weight: 400;
     list-style-type: none;
     text-align: center;
 }
