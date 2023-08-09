@@ -13,7 +13,7 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
             <a class="header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
@@ -24,7 +24,6 @@
           </li>
         </ul>
       </nav>
-      <div class="logo">
         <a class="header__logo">
           <img
             class="header__logo-image"
@@ -33,24 +32,25 @@
           />
         </a>
       </div>
-      <address class="header__address">
+      <address class="address">
         <a class="header__link" href="tel:+99995555555">+9 999 555 5555</a><br />
         <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a
         ><br />
-        <a>наб. Принсенграхт 263-265,</a>
-        <a>Амстердам</a>
+        <p>наб. Принсенграхт 263-265,</p>
+        <p>Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover">
+        <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="aligned__text"
+          <span class="cover__aligned-text"
             >о<span class="letter__spacing">н</span>о</span
           >
-          <span class="aligned__text aligned__text_center"
+          <span class="cover__aligned-text cover__aligned-text_center"
             >те<span class="letter__spacing">б</span>е</span
           >
-          <span class="aligned__text aligned__text_right"
+          <span class="cover__aligned-text cover__aligned-text_right"
             ><span class="letter__spacing">н</span>адо</span
           >
         </h1>
@@ -60,7 +60,6 @@
           </p>
           <button class="bet__button">Сделать ставку</button>
         </div>
-        <div class="overlay"></div>
       </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
@@ -68,6 +67,7 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_film">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -76,13 +76,13 @@
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
                 </p>
-                <div class="overlay"></div>
               </article>
             </a>
           </li>
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_book">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -93,14 +93,14 @@
                   начиная с античных времён. И это всё накладывается на
                   эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
                   Джеймса Джойса?
-                </p>
-                <div class="overlay"></div>
+                </p>            
               </article>
             </a>
           </li>
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_picture">
+                <div class="overlay"></div> 
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -110,7 +110,6 @@
                   котиков… Сколько бы вы на такое поставили, если бы не знали,
                   что это — одна из революционных работ Кандинского?
                 </p>
-                <div class="overlay"></div>
               </article>
             </a>
           </li>
@@ -119,7 +118,7 @@
       </section>
       <section class="about">
         <div class="about__column">
-          <span class="container">
+          <div class="container">
             <a class="about__logo">
               <img
                 class="about__logo-image"
@@ -127,7 +126,9 @@
                 alt="Логотип проекта"
               />
             </a>
-          </span>
+          </div>
+        </div>
+          <div class="about__column">
           <h3 class="about__title">Об аукционе</h3>
           <div class="about__text">
             <p>
@@ -148,15 +149,16 @@
             </p>
           </div>
         </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <address class="footer__address">
+      <address class="address">
         <a class="footer__link" href="tel:+99995555555">+9 999 555 5555</a><br />
         <a class="footer__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a
         ><br />
-        <a>наб. Принсенграхт 263-265,</a><br />
-        <a>Амстердам</a>
+        <p>наб. Принсенграхт 263-265,</p>
+        <p>Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
