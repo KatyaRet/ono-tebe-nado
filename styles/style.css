@@ -269,6 +269,9 @@
     font-size: 18px;
 }
 
+.footer__address {
+    min-width: auto;
+}
 .footer__menu-list {
     font-size: 18px;
     font-style: normal;
